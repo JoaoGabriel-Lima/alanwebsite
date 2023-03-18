@@ -11,10 +11,10 @@ export default function Document() {
         <meta property="og:type" content="website"></meta>
         <meta
           property="og:description"
-          content="DESCUBRA O SEGREDO PARA FAZER ELE CORRER ATRÁS DE VOCÊ, SENTIR SUA FALTA COMO NUNCA E QUERER ASSUMIR UM RELACIONAMENTO"
+          content="Descubra o segredo para fazer ele correr atrás de você, sentir sua falta como nunca e querer assumir um relacionamento"
         ></meta>
         {/* <meta property="og:image" content="/icon.png" /> */}
-        <meta name="theme-color" content="#19191e"></meta>
+        <meta name="theme-color" content="#ff7171"></meta>
         <meta charSet="UTF-8"></meta>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
