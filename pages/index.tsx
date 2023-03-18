@@ -569,10 +569,10 @@ const Home: NextPage = () => {
           </p>
         </section>
         <section className="w-full py-[80px] relative flex flex-col items-center">
-          <h3 className="text-[52px] text-[#303030] font-medium max-w-[700px] leading-none text-center">
+          <h3 className="px-3 text-[52px] text-[#303030] font-medium max-w-[700px] leading-none text-center">
             Liberamos 3 vagas com um desconto exclusivo
           </h3>
-          <p className="mt-5 mb-14 text-2xl max-w-[700px] text-center">
+          <p className="px-3 mt-5 mb-14 text-2xl max-w-[700px] text-center">
             Essa oportunidade é somente agora. Quando as vagas esgotarem, não
             sei quando iremos abrir uma nova turma 😱
           </p>
@@ -912,19 +912,19 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className="py-[30px] bg-[#f8f8f8] z-[2] flex w-full justify-center items-center">
-          <h3 className="text-2xl text-[#008957] text-center">
+          <h3 className="px-3 text-2xl text-[#008957] text-center">
             Você e outras 13 mulheres estão no site neste momento.
           </h3>
         </section>
         <section className=" bg-[#2a2627] px-5 w-full flex justify-center items-center py-[120px] relative">
           <div className="lg:justify-between flex flex-col lg:flex-row w-full items-center max-w-[1000px]">
             <img alt="" src="/compras/garantia.png" className="w-[340px]"></img>
-            <div className="flex flex-col ml-5 lg:items-start items-center">
+            <div className="flex flex-col lg:ml-5 lg:items-start items-center">
               <h4 className="text-white text-4xl font-semibold mb-8 mt-8 lg:mt-0 lg:text-left text-center">
                 GARANTIA DE <br />
                 SATISFAÇÃO 😱
               </h4>
-              <p className="text-white text-[17px] lg:text-xl font-light lg:text-left text-center">
+              <p className=" text-white text-[17px] lg:text-xl font-light lg:text-left text-center">
                 Liberamos seu acesso agora, com 7 dias de garantia
                 incondicional. Você pode baixar o Ebook, ler todo o conteúdo e
                 se por algum motivo você não gostar de algo, mande apenas um{" "}
@@ -959,7 +959,7 @@ const Home: NextPage = () => {
           </h3>
         </section>
         <section className="py-[30px] bg-[#f8f8f8] flex w-full justify-center items-center">
-          <h3 className="text-2xl text-[#008957] text-center">
+          <h3 className="text-2xl px-3 text-[#008957] text-center">
             ❤️ 97.36% DAS NOSSAS ALUNAS APROVAM O NOSSO MÉTODO ❤️
           </h3>
         </section>
