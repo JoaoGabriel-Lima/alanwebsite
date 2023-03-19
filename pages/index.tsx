@@ -10,7 +10,7 @@ import * as fbq from "../lib/fpixel";
 
 const Home: NextPage = () => {
   const handleClick = () => {
-    fbq.event("Purchase", { currency: "BRL", value: 29.0 });
+    fbq.event("InitiateCheckout");
   };
 
   return (
