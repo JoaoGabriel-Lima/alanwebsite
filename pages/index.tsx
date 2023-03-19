@@ -6,8 +6,13 @@ import { HomeCointainer } from "../styles/components/home";
 import Masonry from "react-responsive-masonry";
 import InfoCard from "../components/infocard";
 import Link from "next/link";
+import * as fbq from "../lib/fpixel";
 
 const Home: NextPage = () => {
+  const handleClick = () => {
+    fbq.event("Purchase", { currency: "BRL", value: 29.0 });
+  };
+
   return (
     <HomeCointainer>
       <Head>
@@ -743,6 +748,7 @@ const Home: NextPage = () => {
               </h2>
               <h3 className="text-white text-2xl mt-1">ou R$ 29 à vista</h3>
               <Link
+                onClick={() => handleClick()}
                 href={"https://pay.kiwify.com.br/osbEO9c"}
                 className="text-center uppercase text-[#7f1d1d] hover:bg-[#7f1d1d] hover:text-white hover:border-[1px] border-gray-400 px-[8px] py-[15px] rounded-2xl font-medium mt-[20px] text-[18px] bg-[rgba(252,211,77,1)]"
               >
@@ -1026,6 +1032,7 @@ const Home: NextPage = () => {
             uma mulher inesquecível.
           </h3>
           <Link
+            onClick={() => handleClick()}
             href={"https://pay.kiwify.com.br/osbEO9c"}
             className="text-center uppercase text-[#7f1d1d] hover:bg-[#7f1d1d] hover:text-white hover:border-[1px] border-gray-400 px-[30px] py-[20px] rounded-2xl font-bold mt-[40px] text-[22px] bg-[rgba(252,211,77,1)]"
           >
